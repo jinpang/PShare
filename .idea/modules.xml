@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PShare.iml" filepath="$PROJECT_DIR$/.idea/modules/PShare.iml" group="PShare" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="PShare/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protobuf/protobuf.iml" filepath="$PROJECT_DIR$/.idea/modules/protobuf/protobuf.iml" group="PShare/protobuf" />
+    </modules>
+  </component>
+</project>

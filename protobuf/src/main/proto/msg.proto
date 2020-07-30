@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package tutorial;
+
+option java_package = "com.mohsenoid.protobuftest";
+option java_outer_classname = "MsgProto";
+
+message Header {//24
+    fixed32 stag = 1;
+    fixed32 version = 2;
+    fixed32 checksum = 3;
+    fixed32 type = 4;
+    fixed32 seqno = 5;
+    fixed32 length = 6;
+}
+
+message Request {
+    Header header = 1;
+    bytes body = 2;
+}
+
+message Response {
+    Header header = 1;
+    bytes result = 2;
+}
+
+message Result {
+    int32 code = 1;
+    string msg = 2;
+    bytes data = 3;
+}
